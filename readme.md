@@ -13,9 +13,9 @@ Labelme标注截图
 
 
 * 支持中文路径和中文标签；
-
 * 从Labelme中的边界轮廓线中，保存最大的矩形边框(xmin,xmax,ymin,ymax)；
-* 不保留Labelme中的分组信息
+* 仅处理图片和`json`文件能够一一匹配的LabelMe标注；
+* 不保留Labelme中的分组信息。
 
 ## 使用方法
 1. 安装Pillow库
